@@ -1,0 +1,105 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin-inline: auto;
+    border: 1px soild red;
+}
+
+/*Header*/
+.section1 {
+    width: 100%;
+    height: 720px;
+    padding-bottom: 625;
+    background-image: url("../img/header.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    border: 2px solid blue;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 96px;
+    padding: 0px 240px 0px 240px;
+    background: #D5906E85;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+}
+
+li {
+    font-family: 'Inter', sans-serif;
+    line-height: 22px;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+
+
+.fa-bars {
+    display: none;
+}
+
+.Sing_In {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+
+     
+}
+
+.fa-cart-shopping {
+    padding-left: 16px;
+}
+
+.section1_text {
+    width: 39%;
+    margin: 283px auto 0 auto;
+    text-align: center;
+    border: 2px solid pink;
+}
+
+h2 {
+    font-family: 'Inter';
+    padding-bottom: 16px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+}
+
+p {
+    font-family: 'Inter';
+    padding-bottom: 72px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+}
+
+.Shop_Now {
+    width: 16%;
+    height: 53px;
+    border: 2px solid #d5906e;
+    background: none;
+    border-radius: 10px;
+
+}

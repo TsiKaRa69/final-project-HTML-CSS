@@ -1,0 +1,48 @@
+@media (max-width: 840px) {
+    header{
+    width: 90%;
+    padding: 0px 120px 0px 120px;
+    height: 96px;}
+    .section1_text{
+        width: 80%;
+        margin: 140px auto 0 auto;
+    }
+    ul{
+        gap: 30;
+    }
+    li{
+        font-size: 20px;
+    }
+    .Header_logo{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+
+    }
+    .Sing_In{
+        width: 2%;
+    }
+    h2{
+        font-size: 32pxx;
+        padding-bottom: 8px;
+    }
+    p{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    
+.fa-cart-shopping {
+    padding-left: 8px;
+}
+}
+@media(max-width: 560px){
+    nav{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
