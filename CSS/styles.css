@@ -60,7 +60,7 @@ li {
     font-family: 'Inter', sans-serif;
     display: flex;
 
-     
+
 }
 
 .fa-cart-shopping {
@@ -101,5 +101,82 @@ p {
     border: 2px solid #d5906e;
     background: none;
     border-radius: 10px;
+
+}
+
+/*article*/
+article {
+    width: 48%;
+    display: flex;
+    margin: 160px auto;
+    border: 2px solid pink;
+
+
+}
+
+.article_card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figcaption {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #B53B1B;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.acticle_Potos {
+    width: 100%;
+    height: 160px;
+}
+
+/*section*/
+.section2 {
+    width:  100%;
+    height: 922px;
+    background-color: #402101;
+    margin: auto auto 160px auto;
+    border: 2px solid green;
+
+
+}
+
+.Section_h2 {
+    
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 96px 0 40px 0;
+}
+.Gallery_potos{
+    width: 60%;
+    height: 642px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid skyblue;
+    margin: auto;
+  
+}
+.Gallery_Potos1{
+    width: 100%;
+
+    height: 100%;
+    gap: 60px;
+}
+     
+.Gallery_Potos2{
+    width: 100%;
+  
+    height: 100%;
+     
 
 }
