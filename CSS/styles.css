@@ -54,10 +54,12 @@ li {
 
 .fa-bars {
     display: none;
+    color: #FFFFFF;
 }
 
 .Sing_In {
     font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
     display: flex;
 
 
@@ -96,10 +98,11 @@ p {
 }
 
 .Shop_Now {
-    width: 16%;
+    width: 30%;
     height: 53px;
     border: 2px solid #d5906e;
     background: none;
+    color: #FFFFFF;
     border-radius: 10px;
 
 }
@@ -135,9 +138,9 @@ figcaption {
     height: 160px;
 }
 
-/*section*/
+/*section_2*/
 .section2 {
-    width:  100%;
+    width: 100%;
     height: 922px;
     background-color: #402101;
     margin: auto auto 160px auto;
@@ -147,7 +150,7 @@ figcaption {
 }
 
 .Section_h2 {
-    
+
     font-family: 'Inter';
     font-weight: 700;
     font-size: 2.5rem;
@@ -155,28 +158,142 @@ figcaption {
     text-align: center;
     padding: 96px 0 40px 0;
 }
-.Gallery_potos{
-    width: 60%;
+
+.Gallery_potos {
+    width: 100%;
     height: 642px;
+    padding: auto 365px 96px 365px;
     margin: auto;
+    gap: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     border: 2px solid skyblue;
-    margin: auto;
-  
-}
-.Gallery_Potos1{
-    width: 100%;
 
+}
+
+.Gallery_Potos1 {
+    width: 65%;
     height: 100%;
+    display: flex;
+    gap: 58px;
+
+
+
+}
+
+.Gallery_Potos2 {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
     gap: 60px;
-}
-     
-.Gallery_Potos2{
-    width: 100%;
-  
-    height: 100%;
-     
+    padding-bottom: 96px;
 
+}
+
+/*article2*/
+.article2 {
+    width: 75%;
+    height: 30%;
+    flex-direction: column;
+    margin: 160 auto;
+    border: 2px solid lightgreen;
+}
+
+.article2_h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #402101;
+
+}
+
+.Four_img {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.List_Potos {
+    height: 10%;
+    height: 30%;
+    border: 2px solid wheat;
+}
+
+.Img_four {
+    width: 100%;
+}
+
+.prices {
+    width: 88px;
+    height: 48px;
+    background: #fff;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    top: -70px;
+    left: 40px;
+
+
+
+}
+
+.price_cost {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #B53B1B;
+    padding-left: 20px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.List_Potos:hover {
+    transform: scale(1.3)
+}
+
+.fa-left-from-line {
+    color: yellow;
+}
+
+.section3 {
+    width: 100%;
+    height: 480px;
+    padding: 160px auto 160px auto;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/Poto_14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    border: 2px solid aqua;
+}
+.Section3_h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #FFFFFF;}
+
+.Section3_Method {
+    width: 25%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid fuchsia;
+}
+.imput_Visual{
+    width: 25%;
+    height: 30px;
+    
+    display: flex;
 }
