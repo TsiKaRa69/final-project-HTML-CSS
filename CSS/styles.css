@@ -264,10 +264,11 @@ figcaption {
     color: yellow;
 }
 
+/*section3*/
 .section3 {
     width: 100%;
     height: 480px;
-    padding: 160px auto 160px auto;
+    margin: auto;
     display: flex;
     align-items: center;
     background-image: url("../img/Poto_14.png");
@@ -276,24 +277,123 @@ figcaption {
     background-repeat: repeat;
     border: 2px solid aqua;
 }
-.Section3_h2{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-color: #FFFFFF;}
+
+.Section3_h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
 
 .Section3_Method {
-    width: 25%;
-    height: 20%;
+    width: 30%;
+    height: 38%;
     margin: auto;
-    text-align: center;
     border: 2px solid fuchsia;
 }
-.imput_Visual{
-    width: 25%;
-    height: 30px;
-    
+
+.imput_Visual {
+    margin-top: 45px;
+    padding-left: 40px;
+
+
+}
+
+.user_info_input {
+    width: 65%;
+    height: 59px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 10px 0px 0px 10px;
+    border-right-style: none;
+    outline: none;
+}
+
+.sub {
+    width: auto;
+    height: 59px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid white;
+}
+
+/*article Texts*/
+.aritcle_texts {
+    width: 75%;
     display: flex;
+    flex-direction: column;
+    margin: 160px auto 112px auto;
+}
+
+.article_texth2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 44px;
+    color: #402101;
+   
+}
+
+.article_div_texts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_div {
+    width: 30%;
+    border-radius: 8px;
+    background: rgba(213, 144, 110, 0.3);
+}
+
+.texts_h3_isnide {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B53B1B;
+}
+
+.p_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #402101;
+}
+ .help_div{
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+.help_h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #402101;
+    margin-bottom: 20px;
+}
+.help_buttn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29.05px;
+    padding: 14px 54px;
+    background: #B53B1B;
+    color: #FFFFFF;
 }
