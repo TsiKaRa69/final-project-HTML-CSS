@@ -340,7 +340,7 @@ figcaption {
     margin-bottom: 40px;
     line-height: 44px;
     color: #402101;
-   
+
 }
 
 .article_div_texts {
@@ -375,15 +375,17 @@ figcaption {
     line-height: 19px;
     color: #402101;
 }
- .help_div{
+
+.help_div {
     width: 100%;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
- }
-.help_h2{
+}
+
+.help_h2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -392,7 +394,8 @@ figcaption {
     color: #402101;
     margin-bottom: 20px;
 }
-.help_buttn{
+
+.help_buttn {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -400,5 +403,63 @@ figcaption {
     padding: 14px 54px;
     background: #B53B1B;
     color: #FFFFFF;
+    margin-bottom: 160px;
 }
+
 /*footer*/
+footer {
+    width: 100%;
+    background: #402101;
+    margin: auto;
+    padding: 32px 365px 57px 365px;
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.div_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.fot_p{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:  16px;
+    padding-top: 10px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.icons_packleft{
+    margin-top: 43px;
+    display: flex;
+    gap: 27px;
+    font-size:  24px;
+}
+.div_right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    color: white;
+     
+}
+.i_text{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-left: 10px;
+
+}
