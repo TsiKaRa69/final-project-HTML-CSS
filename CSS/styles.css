@@ -487,37 +487,50 @@ footer {
     border: 2px solid blue;
     margin-bottom: 160px;
 }
+/*search buttun*/
+.search_arts{
 
-.arts_header_h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    padding-bottom: 72px;
-    color: #FFFFFF;
+    border: 2px solid pink;
 }
-
-.artwork_h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #402101;
-    padding-right: 50px;
-}
-
-.Arts_search_div {
-    width: 40%;
+.Arts_search_div{
+    width:  40%;
+    margin: 178px auto 61px auto;
     display: flex;
-    margin: auto;
-    text-align: center;
+    align-items: center;
+    border: 2px solid aqua;
 }
+.artwork_h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #402101;
+padding-right: 95px;
+padding-top: 10px;
+}
+.search_form{
+    width: 100%;
+    display: flex;
+}
+.artwork_input{
+    width: 100%;
+    display: flex;
+}
+.artwork_search_btn{
+    width: 30%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;0 
+
+}
+
 
 /*Gallery img*/
 .Arts_gallery {
-    width: 100%;
+    width: 50%;
     border: 2px solid red;
 }
 
