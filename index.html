@@ -6,193 +6,246 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/stylesheet.css">
-    <script src="https://kit.fontawesome.com/ea876ce1d7.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://kit.fontawesome.com/d4e5e958a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/media.css">
-    <title>Document</title>
+    <link rel="icon" href="image/clay.png" type="image/icon type">
+    <title>Home</title>
 </head>
 
 <body>
-    <div class="container">
-        <!--Header !-->
-        <section class="section1">
-            <header>
-                <i class="fa-solid fa-bars"></i>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="arts.html">Artworks</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="header_logo">
-                    <a class="Header_logo" href="index.html"><img src="img/logo.png" alt="H_logo"></a>
-                </div>
-                <div class="Sing_In"><a href="#">Sign In</a>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
 
-            </header>
-            <div class="section1_text">
-                <h2>Earth, Water, Air and Fire</h2>
-                <p>Pottery is an ancient craft, with the earliest historical records of wheel-thrown pottery dating back
-                    to 4000 B.C. in Egypt and 3000 B.C. in China. In this article, I’ll talk about how wheel-thrown
-                    pottery developed and was refined as a craft and will discuss glazes and types of clay.</p>
-                <button class="Shop_Now">Shop Now</button>
+    <div class="main_container">
+        <!-- header -->
+        <header>
+            <nav>
+                <ul>
+
+                    <li><a style="color: #D5906E;" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="arts.html">Artworks</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="logo_div">
+                <a href="index.html">
+                    <p class="main_logo">Earthly <span class="logo_span">Artisry</span></p>
+                </a>
             </div>
+
+            <div class="sign_in_icon">
+                <p>sign in</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+        </header>
+        <!-- banner -->
+        <section class="banner_homepage">
+            <div class="section1">
+                <div class="banner_text">
+                    <h2 class="banner_h2">Earth, Water, Air and Fire</h2>
+                    <p class="banner_p">Pottery is an ancient craft, with the earliest historical records of
+                        wheel-thrown pottery dating back to 4000 B.C. in Egypt and 3000 B.C. in China. In this article,
+                        I’ll talk about how wheel-thrown pottery developed and was refined as a craft and will discuss
+                        glazes and types of clay.</p>
+                    <a href="artworks.html"><button class="shop_now_button">Shop Now</button></a>
+                </div>
+            </div>
+
         </section>
         <!-- article -->
         <article>
-            <div class="article_card">
+            <div class="article_cards">
                 <figure>
-                    <img class="acticle_Potos" src="img/Poto_1.png" alt="Poto_one">
-                    <figcaption>Pottery Classes</figcaption>
+                    <img class="article_img" src="img/Poto_1.png" alt="">
+                    <figcaption class="mobile_x">Pottery Classes</figcaption>
                 </figure>
                 <figure>
-                    <img class="acticle_Potos" src="img/Poto_2.png" alt="Poto_two">
-                    <figcaption>
-                        Design Process
-                    </figcaption>
+                    <img class="article_img" src="img/Poto_2.png" alt="">
+                    <figcaption>Gift Pottery</figcaption>
                 </figure>
                 <figure>
-                    <img class="acticle_Potos" src="img/Poto_3.png" alt="Poto_thre">
-                    <figcaption>
-                        Gift Pottery
-                    </figcaption>
+                    <img class="article_img" src="img/Poto_3.png" alt="">
+                    <figcaption>Design Process</figcaption>
                 </figure>
-                <figure> <img class="acticle_Potos" src="/img/Poto_4.png" alt="Poto_for">
+                <figure class="last_figure">
+                    <img class="article_img" src="img/Poto_4.png" alt="">
                     <figcaption>Ceramic Painting</figcaption>
                 </figure>
             </div>
         </article>
-        <section class="section2">
-            <h2 class="Section_h2">Our Gallery</h2>
-            <div class="Gallery_potos">
-                <div class="Gallery_Potos1">
-                    <img src="img/Poto_5.png" alt="Poto_five">
-                    <img src="img/Poto_6.png" alt="Poto_six">
-
-                </div>
-                <div class="Gallery_Potos2">
-                    <img src="img/Poto_7.png" alt="Poto_seven">
-                    <img src="img/Poto_8.png" alt="Poto_eight">
-                    <img src="img/Poto_9.png" alt="Poto_nine">
-                </div>
+        <!-- article 2-->
+        <article class="gallery">
+            <h2 class="gallery_h">Our Gallery</h2>
+            <div class="gallery_img1">
+                <img class="start_img1" src="img/Poto_5.png" alt="">
+                <img class="second_img1" src="img/Poto_6.png" alt="">
             </div>
-        </section>
-        <!--artocle2-->
-        <article class="article2">
-            <h3 class="article2_h3">Latest Products</h3>
-
-            <div class="Four_img">
-
-                <div class="Four_Potos">
-
-                    <div class="List_Potos"> <img class="Img_four" src="img/Poto_10.png" alt="">
-                        <div class="prices">
-                            <p class="price_cost">48.57$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="List_Potos"><img class="Img_four" src="img/Poto_11.png" alt="">
-                    <div class="prices">
-                        <p class="price_cost">48.57$</p>
-                    </div>
-                </div>
-                <div class="List_Potos"><img class="Img_four" src="img/Poto_12.png" alt="">
-                    <div class="prices">
-                        <p class="price_cost">48.57$</p>
-                    </div>
-                </div>
-                <div class="List_Potos"><img class="Img_four" src="img/Poto_13.png" alt="">
-                    <div class="prices">
-                        <p class="price_cost">48.57$</p>
-                    </div>
-                </div>
+            <div class="gallery_img2">
+                <img class="down_img" src="img/Poto_7.png" alt="">
+                <img class="down_img" src="img/Poto_8.png" alt="">
+                <img class="last_img_end" src="img/Poto_9.png" alt="">
             </div>
         </article>
+        <!-- article 3 - latest products -->
+        <article class="latest_products">
+            <div class="latest_products_h">Latest Products</div>
+            <div class="latest_products_images">
+                <img class="frames" src="img/Frame 57.png" alt="">
 
-        <section class="section3">
-            <div class="Section3_Method">
-                <h2 class="Section3_h2">Subscribe to Newsletter</h2>
+                <div class="cont1 first mobile_resolution">
+                    <img class="lp_image" src="img/Poto_10.png" alt="">
+                    <div class="price">
+                        <p class="price_p">48.57$</p>
+                    </div>
+                </div>
+
+                <div class="cont1 second mobile_resolution">
+                    <img class="lp_image" src="img/Poto_11.png" alt="">
+                    <div class="price">
+                        <p class="price_p">48.57$</p>
+                    </div>
+                </div>
+
+                <div class="cont1 third mobile_resolution">
+                    <img class="lp_image" src="img/Poto_12.png" alt="">
+                    <div class="price">
+                        <p class="price_p">48.57$</p>
+                    </div>
+                </div>
+
+                <div class="cont1 fourth">
+                    <img class="lp_image" src="img/Poto_13.png" alt="">
+                    <div class="price">
+                        <p class="price_p">48.57$</p>
+                    </div>
+                </div>
+
+                <img class="frames" src="img/Frame 56.png" alt="">
+
+                <button class="view_more">View More</button>
+
+
+            </div>
+        </article>
+        <!-- second banner -->
+        <section class="banner2">
+            <div class="section2_sub">
+                <h2 class="banner2_h2">Subscribe to Newsletter</h2>
                 <form method="get">
-                    <div class="imput_Visual">
-                        <label class="user_info" for="email"></label>
-                        <input class="user_info_input" type="email" name="email" id="email" placeholder="Email Adress">
-                        <button class="sub" type="submit">SUBSCRIBE</button>
+                    <div class="subscribe_form">
+                        <label class="personal_info" for="Email"></label>
+                        <input class="personal_info_input" type="email" id="Email" name="email"
+                            placeholder="Email Adress">
+                        <button class="sub" type="sumbite" value="SUBSCRIBE">SUBSCRIBE</button>
+
                     </div>
                 </form>
             </div>
         </section>
-        <!--Article Texts-->
-        <article class="aritcle_texts">
-            <h2 class="article_texth2">What is Earthly Artistry?</h2>
+        <!-- last article  -->
+        <article class="last_article">
+            <h2 class="last_article_h">What is Earthly Artistry?</h2>
             <div class="article_div_texts">
-                <div class="article_div">
-                    <h3 class="texts_h3_isnide">A community doing good</h3>
-                    <p class="p_text">Earthly Artistry is a global online marketplace, where people come together to
-                        make, sell, buy
-                        and collect unique items. We’re also a community pushing for positive change for small
-                        businesses, people, and the planet.</p>
+                <div class="text_div">
+                    <h2 class="mini_text_h2">A community doing good</h2>
+                    <p class="mini_text_p">Earthly Artistry is a global online marketplace, where people come together
+                        to make, sell, buy and collect unique items. We’re also a community pushing for positive change
+                        for small businesses, people, and the planet.</p>
                 </div>
-                <div class="article_div">
-                    <h3 class="texts_h3_isnide">Support independent creators</h3>
-                    <p class="p_text">
-                        There’s no Etsy warehouse – just millions of people selling the things they love. We make the
-                        whole process easy, helping you connect directly with makers to find something extraordinary.
-                    </p>
+                <div class="text_div">
+                    <h2 class="mini_text_h2">Support independent creators</h2>
+                    <p class="mini_text_p">There is no Etsy warehouse just millions of people selling the things they
+                        love. We make the whole process easy, helping you connect directly with makers to find something
+                        extraordinary.</p>
                 </div>
-                <div class="article_div">
-                    <h3 class="texts_h3_isnide">Peace of mind</h3>
-                    <p class="p_text">
-                        Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we
-                        are always ready to step in for support.
-                    </p>
+                <div class="text_div">
+                    <h2 class="mini_text_h2">Peace of mind</h2>
+                    <p class="mini_text_p">Your privacy is the highest priority of our dedicated team. And if you ever
+                        need assistance, we are always ready to step in for support. helping you connect directly with
+                        makers to find something extraordinary.</p>
                 </div>
             </div>
+            <h2 class="last_question">Have a question? Well, we’ve got some answers.</h2>
+            <button class="last_article_button">Go to Help Center</button>
+
+
+
         </article>
-        <div class="help_div">
-            <h2 class="help_h2"> Have a question? Well, we’ve got some answers.</h2>
-            <button class="help_buttn"> Go to Help Center </button>
-        </div>
-        <!--footer-->
+        <!--  footer -->
         <footer>
-            <div class="div_left">
-                <h3 class="footer_h3">Help</h3>
-                <p class="fot_p"> Help Centre <br>Privacy Settings</p>
-                <div class="icons_packleft">
-                    <a href="https://www.youtube.com" target="_blank"><img class="f_logo_left" src="img/yutubelogo.png"
-                            alt=""></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img class="f_logo_left"
-                            src="img/instagram logo.png" alt=""></a>
-                    <a href="https://www.facebook.com/artworksclaystudio" target="_blank"><img class="f_logo_left"
-                            src="img/fecebook logo.png" alt=""></a>
+            <div class="footer_div">
+                <div class="footer_social_icons">
+                    <h3 class="footer_h">Help</h3>
+                    <p class="footer_p">Help Centre</p>
+                    <p class="footer_p addon_p">Privacy Settings</p>
+                    <div class="footer_logos">
+                        <a href="https://www.youtube.com/" target="_blank"><img class="f_logo"
+                                src="img/yutubelogo.png" alt=""></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="f_logo"
+                                src="img/instagram logo.png" alt=""></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img class="f_logo"
+                                src="img/fecebook logo.png" alt=""></a>
+                    </div>
                 </div>
+                <div class="footer_logo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div class="footer_contact">
+                    <div class="footer_contact_icons">
+
+                        <div class="footer_contacts_div">
+                            <img src="img/phonelogo.png" alt="">
+                            <p><a href="tel:+123 45 67 89"> <span class="span"> +123 45 67 89 </span></a></p>
+                        </div>
+
+                        <div class="footer_contacts_div">
+                            <img class="envelope" src="img/messeglogo.png" alt="">
+                            <p><a href="mailto:email@example.com"> <span class="span">example@mail.com</span></a></p>
+                        </div>
+
+                        <div class="footer_contacts_div">
+                            <img src="img/locatianlogo.png" alt="">
+                            <p><a href="https://goo.gl/maps/k7Q97jrpvzXn7jJd7" target="_blank"> <span class="span">
+                                        Rustaveli avenue, 30</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <img class="footer_logoimg" src="img/logo.png" alt="">
-
-            <div class="div_right">
-                <i class="fa-solid fa-phone"><a class="i_text" href="tel:+123 45 67  89">+123 45 67 89</a></i>
-                <i class="fa-regular fa-envelope"><a class="i_text"
-                        href="mailto:example@mail.com">example@mail.com</a></i>
-                <i class="fa-solid fa-location-dot"><a class="i_text" href="http://goo.gl/maps/2tS39RatZdvn7NWR6"
-                        target="_blank">Rustaveli avenue, 30</a></i>
-            </div>
 
         </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
 
 
 
+
 </body>
-
-
-
-
 
 </html>
